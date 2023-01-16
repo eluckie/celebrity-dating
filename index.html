@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <title>Celebrity Dating</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <h1>Welcome to celebrity matchmaking.</h1>
+  <h4>Enter your age and height to see your celebrity perfect match.</h4>
+  <form id="userInfo">
+    <p id="error-message" class="hidden">Please enter your age and height (inches) in whole numbers.</p>
+    <label for="age">Age:</label>
+    <input id="age" type="text" name="age">
+    <label for="height">Height (in inches):</label>
+    <input id="height" type="text" name="height">
+    <button type="submit">Show me my match</button>
+  </form>
+
+  <div id="sully" class="hidden">
+    <h2>You & Sully would be so happy together</h2>
+    <img src="img/sully.jpg">
+  </div>
+
+  <div id="mike" class="hidden">
+    <h2>Mike would love you properly</h2>
+    <img class="mike-photo" src="img/mike.jpg">
+  </div>
+
+  <div id="roz" class="hidden">
+    <h2>Roz is the one for you</h2>
+    <img class="roz-photo" src="img/roz.jpg">
+  </div>
+
+  <div id="nobody" class="hidden">
+    <h2>Should you even be dating right now?</h2>
+    <h4>Stay in school, kids!</h4>
+  </div>
+
+</body>
+</html>

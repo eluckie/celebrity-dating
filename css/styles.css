@@ -1,0 +1,18 @@
+.mike-photo {
+  height:30%;
+  width:30%;
+}
+
+.roz-photo {
+  height:40%;
+  width:40%;
+}
+
+.hidden {
+  display:none;
+}
+
+#error-message {
+  font-weight:600;
+  color:red;
+}
